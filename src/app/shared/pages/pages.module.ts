@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
-import { DashboardModule } from '../../components/dashboard/dashboard.module';
 import { HomeModule } from '../../components/home/home.module';
+import { LoginModule } from '../../components/login/login.module';
+import { TecnicosModule } from '../../components/tecnicos/tecnicos.module';
 
 @NgModule({
   exports: [
     HomeModule,
-    DashboardModule
+    LoginModule,
+    TecnicosModule
   ]
 })
 export class PagesModule { }

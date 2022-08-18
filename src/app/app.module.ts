@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PagesModule } from './shared/pages/pages.module';
 
 @NgModule({
@@ -13,7 +14,14 @@ import { PagesModule } from './shared/pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    PagesModule
+    PagesModule,
+    ToastrModule.forRoot(
+      {
+        timeOut: 4000,
+        progressBar: true,
+        closeButton: true
+      }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
