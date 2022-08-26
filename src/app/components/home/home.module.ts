@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
-import { MaterialModule } from '../../shared/material/material.module';
+import { MaterialModule } from 'src/app/shared/material/material.module';
 import { HomeRoutingModule } from './home-routing.module';
+import { NavBarModule } from '../nav-bar/nav-bar.module';
 
 
 
@@ -13,7 +14,8 @@ import { HomeRoutingModule } from './home-routing.module';
   imports: [
     CommonModule,
     MaterialModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    NavBarModule
   ],
   exports: [
     HomeComponent
