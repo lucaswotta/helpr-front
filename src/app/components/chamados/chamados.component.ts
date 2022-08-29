@@ -5,7 +5,7 @@ import { MatRadioButton } from '@angular/material/radio';
 import { MatTableDataSource } from '@angular/material/table';
 import { Chamado } from 'src/app/models/chamado';
 import { ChamadoService } from 'src/app/services/chamado.service';
-import { ChamadoDetailsComponent } from './childrens/chamado-details/chamado-details.component';
+import { ChamadoDetailsComponent } from './children/chamado-details/chamado-details.component';
 
 @Component({
   selector: 'app-chamados',

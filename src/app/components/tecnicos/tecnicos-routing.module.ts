@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TecnicoCreateComponent } from './childrens/tecnico-create/tecnico-create.component';
-import { TecnicoUpdateComponent } from './childrens/tecnico-update/tecnico-update.component';
+import { TecnicoCreateComponent } from './children/tecnico-create/tecnico-create.component';
+import { TecnicoUpdateComponent } from './children/tecnico-update/tecnico-update.component';
 import { TecnicosComponent } from './tecnicos.component';
 
 const routes: Routes = [

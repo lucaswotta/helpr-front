@@ -7,9 +7,9 @@ import { NavBarModule } from '../nav-bar/nav-bar.module';
 import { MaterialModule } from 'src/app/shared/material/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PipesModule } from 'src/app/pipes/pipes.module';
-import { ChamadoCreateComponent } from './childrens/chamado-create/chamado-create.component';
-import { ChamadoUpdateComponent } from './childrens/chamado-update/chamado-update.component';
-import { ChamadoDetailsComponent } from './childrens/chamado-details/chamado-details.component';
+import { ChamadoCreateComponent } from './children/chamado-create/chamado-create.component';
+import { ChamadoUpdateComponent } from './children/chamado-update/chamado-update.component';
+import { ChamadoDetailsComponent } from './children/chamado-details/chamado-details.component';
 
 
 @NgModule({
